@@ -3,9 +3,9 @@
   "description": "A cat clone with syntax highlighting and Git integration",
   "clone_command": "git clone ",
   "clone_url": "https://github.com/sharkdp/bat.git",
-  "build": "cd /tmp/bat && cargo build --release",
+  "build": "export CC=clang cd /tmp/bat && export CC=clang cargo build --release",
   "binary_name": "bat",
   "binary_dir": "target/release/",
-  "dependencies": ["cargo", "rustc"],
+  "dependencies": ["cargo", "rustc", "clang"],
   "os": ["linux", "macos"]
 }
