@@ -1,0 +1,11 @@
+{
+  "name": "bat",
+  "description": "A cat clone with syntax highlighting and Git integration",
+  "clone_command": "git clone ",
+  "clone_url": "https://github.com/sharkdp/bat.git",
+  "build": "cargo build --release",
+  "binary_name": "bat",
+  "binary_dir": "target/release",
+  "dependencies": ["cargo", "rustc"],
+  "os": ["linux", "macos"]
+}
