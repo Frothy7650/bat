@@ -5,7 +5,7 @@
   "clone_url": "https://github.com/sharkdp/bat.git",
   "build": "cd /tmp/bat && cargo build --release",
   "binary_name": "bat",
-  "binary_dir": "target/release",
+  "binary_dir": "target/release/",
   "dependencies": ["cargo", "rustc"],
   "os": ["linux", "macos"]
 }
