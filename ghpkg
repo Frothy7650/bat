@@ -4,6 +4,7 @@
   "clone_command": "git clone ",
   "clone_url": "https://github.com/sharkdp/bat.git",
   "build": "cd /tmp/bat && CC=clang cargo build --release",
+  "post": "",
   "binary_name": "bat",
   "binary_dir": "target/release/",
   "dependencies": ["cargo", "rustc", "clang"],
